@@ -1,0 +1,8 @@
+.horizontal-list li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.profile-photo {
+    clip-path: circle();
+}
