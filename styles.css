@@ -46,11 +46,17 @@ header{
 
 }
 
+
+
+footer{
+	display: flex;
+	justify-content: center;
+}
+
 .projects-list{
 	* {
 		box-sizing: border-box;
 	}
-
 
 	ul {
 		list-style: none;
@@ -69,7 +75,7 @@ header{
 		padding: 1.5rem;
 		border-radius: 1rem;
 		width: calc(100% - 2rem);
-		box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.1);
+		/* box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.1); */
 	}
 
 	li:nth-child(even) {
@@ -79,14 +85,15 @@ header{
 		margin-left: 2rem;
 	}
 
-	/* Makes the fish face the centre */
-	li:nth-child(even)::before {
-		transform: rotateY(180deg);
-	}
-
 }
 
-footer{
-	display: flex;
-	justify-content: center;
+.projectimages{
+	width: 100%;
+	height: auto; /* Maintains aspect ratio */
+	display: block; /* Helps with alignment issues */
+}
+
+.contact_image{
+	height: 100px;
+	width: 100px;
 }
