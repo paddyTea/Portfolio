@@ -1,5 +1,5 @@
 .backgroundColor{
-	background-color: powderblue;
+	background-color: #bfeaff;
 }
 
 .horizontal-list li {
@@ -96,4 +96,13 @@ footer{
 .contact_image{
 	height: 100px;
 	width: 100px;
+}
+
+
+
+.contact_container{
+	display: flex;
+	align-items: center;
+	gap: 400px;
+	justify-content: center;
 }
